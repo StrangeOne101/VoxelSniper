@@ -20,7 +20,7 @@ public class VoxelVoxelCommand extends VoxelCommand {
 
     public VoxelVoxelCommand() {
         super("VoxelVoxel");
-        setIdentifier("v");
+        setIdentifier("vmat");
         setPermission("voxelsniper.sniper");
     }
 

@@ -12,7 +12,7 @@ public class VoxelUndoCommand extends VoxelCommand {
 
     public VoxelUndoCommand() {
         super("VoxelUndo");
-        setIdentifier("u");
+        setIdentifier("undovox");
         addOtherIdentifiers("uu");
         setPermission("voxelsniper.sniper");
     }

@@ -7,25 +7,24 @@ authors: [przerwap, MikeMatrix, Gavjenks, giltwist, psanker, Deamon5550, DivineR
 description: ${project.description}
 softdepend: [VoxelModPackPlugin]
 commands:
-  u:
+  undovox:
     description: Undo changes made by yourself or other players.
     permission: voxelsniper.sniper
-    aliases: [undo]
     usage: Invalid syntax. Use /<command> help to see valid syntax.
   uu:
     description: Undo changes made by other players.
     permission: voxelsniper.sniper
     aliases: [undouser]
     usage: Invalid syntax. Use /<command> help to see valid syntax.
-  d:
+  default:
     description: Reverts all values back to defaults.
     permission: voxelsniper.sniper
-    alias: [default]
+    alias: [def]
     usage: Invalid syntax. Use /<command> help to see valid syntax.
-  p:
+  performer:
     description: Change the currently active performer for the performer brush.
     permission: voxelsniper.sniper
-    aliases: [perf, performer]
+    aliases: [perf]
     usage: Invalid syntax. Use /<command> help to see valid syntax.
   sniper:
     description: View and change settings related to VoxelSniper.
@@ -40,7 +39,7 @@ commands:
     description: Changes the data value of the currently active replace material.
     permission: voxelsniper.sniper
     usage: Invalid syntax. Use /<command> help to see valid syntax.
-  v:
+  vmat:
     description: Changes the currently active voxel material.
     permission: voxelsniper.sniper
     usage: Invalid syntax. Use /<command> help to see valid syntax.
@@ -48,7 +47,7 @@ commands:
     description: Changes the currently active replace material.
     permission: voxelsniper.sniper
     usage: Invalid syntax. Use /<command> help to see valid syntax.
-  b:
+  brush:
     description: Brush.
     permission: voxelsniper.sniper
     usage: Invalid syntax. Use /<command> help to see valid syntax.
